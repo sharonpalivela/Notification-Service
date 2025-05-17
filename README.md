@@ -27,15 +27,25 @@ Key highlights:
 ## Project Structure
 
 server.js – Entry point of the application
+
 .env – Environment variables (excluded via .gitignore)
+
 package.json – Project dependencies and scripts
+
 README.md – Documentation
+
 .gitignore – Git ignore rules
+
 src/
+
 config/ – MongoDB connection config
+
 controllers/ – Business logic for notification handling
+
 models/ – Mongoose schema for notifications
+
 queues/ – Contains producer.js and consumer.js for RabbitMQ
+
 routes/ – Express.js API route definitions
 
 
