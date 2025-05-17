@@ -27,12 +27,12 @@ Key highlights:
 ## Project Structure
 
 Notification-Service/
-├── src/
-│ └── queues/
-│ ├── consumer.js # Consumer script with retry logic
-│ └── producer.js # Producer script sending notifications
-├── README.md # This documentation
-└── package.json # Project dependencies and scripts
+ src/
+ queues/
+ consumer.js 
+ producer.js 
+ README.md
+ package.json
 
 
 ---
